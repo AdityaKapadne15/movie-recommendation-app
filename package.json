@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://adityakapadne15.github.io/movie-recommendation-app",
+  "homepage": "https://adityakapadne15.github.io/movie-recommendation-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

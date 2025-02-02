@@ -5,12 +5,24 @@
 }
 
 .search-form {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto 2rem;
   display: flex;
   gap: 1rem;
   padding: 0 1rem;
   box-sizing: border-box;
+}
+.MuiInput-root {
+  background-color: white !important;
+  border-radius: 5px 5px 0 0;
+}
+
+.MuiInputBase-root{
+  height: 40px;
+}
+
+.search-bar{
+  width: 1600px !important;
 }
 
 .search-input {
@@ -51,6 +63,10 @@
   .search-form {
     margin-bottom: 1rem;
   }
+
+  .search-bar{
+    width: 300px !important;
+  }
 }
 
 .movies-grid {
@@ -61,3 +77,4 @@
   width: 100%;
   box-sizing: border-box;
 }
+
